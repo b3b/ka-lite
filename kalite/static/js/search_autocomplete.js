@@ -180,6 +180,8 @@ $(document).ready(function() {
 
     });
 
+    $("#search").autocomplete("widget").css({"max-height": "80%", "overflow-y": "auto"});
+
     $("#search-button").click(function() {
         $("#search-box").submit();
     });
